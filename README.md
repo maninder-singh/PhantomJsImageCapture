@@ -4,8 +4,7 @@ Demo application for capture web page as image using PhantomJs framework
 
 ### Install PhantomJs
 
-PhantomJs can be install using there binary package or node package manager.
+1. Download the binary distribution pacakge from [PhantomJs](http://phantomjs.org/download.html).
 
-* Install using binary package.
-* Install using node
-  * `npm -g install phantomjs2`
+
+
