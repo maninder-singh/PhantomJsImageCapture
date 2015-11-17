@@ -4,7 +4,7 @@ class UrlMappings {
 	static mappings = {
         "/webpage"(controller: "image",parseRequest: true){
                 action = [
-                        GET : "getWebPageAsImage"
+                        POST : "getWebPageAsImage"
                 ]
         }
         "/"(view:"/index")
