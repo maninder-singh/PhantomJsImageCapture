@@ -11,5 +11,5 @@ sudo apt-get install phantomjs
 ### Setup Grails app `PhantomJsImageCapture`
 
 1. `git clone git@git1.affinnova.com:msingh/PhantomJsImageCapture.git`.
-2. Goto root directory `cd PhantomJsImageCapture`.
+2. Goto directory `cd PhantomJsImageCapture`.
 3. `grails run-app`.
