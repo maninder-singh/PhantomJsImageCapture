@@ -11,8 +11,10 @@ class ImageController {
 
     def getWebPageAsImage(){
 
+        def data = request.JSON
+        def webPageUrl = data["webPageUrl"] as String
         def result = [:]
-        def imageData = imageService.getWebPageAsImage()
+        def imageData = imageService.getWebPageAsImage(webPageUrl)
         result.put("data","data:image/png;base64," + new String(Base64.encodeBase64(imageData)))
         render result as JSON
     }
