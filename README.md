@@ -21,5 +21,7 @@ sudo apt-get install phantomjs
 curl --header "Content-type: application/json" --request POST --data '{"webPageUrl":"{web-page-url}"}' -v http://localhost:8080/PhantomJsImageCapture/webpage
 
 Note : 
-{web-page-url} - url of webpage
+{web-page-url} : url of webpage
+
+image is saved on following location : PhantomJsImageCapture/target/work/resources/image_capture/images/
 ```
