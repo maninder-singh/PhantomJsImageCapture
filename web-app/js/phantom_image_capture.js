@@ -3,9 +3,14 @@
  */
 
 function getImage(){
-    var imageUrl = "http://localhost:8080/PhantomJsImageCapture/webpage";
+    var baseUrl = "http://localhost:8080/PhantomJsImageCapture/webpage";
+    var webPageUrl = $("#webPageUrlId").val();
+    var data = {};
+    data["webPageUrl"] = webPageUrl;
     $.ajax({
-        url : imageUrl,
+        url : baseUrl,
+        type : "POST",
+        data : '{"webPageUrl" : "' + webPageUrl + '"}',
         success : function (result) {
             $("#imageDivId").attr("src",result.data);
         },
