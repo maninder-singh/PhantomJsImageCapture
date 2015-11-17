@@ -8,4 +8,8 @@ Demo application for capture web page as image using [PhantomJs](http://phantomj
 sudo apt-get install phantomjs
 ```
 
-### Steps to running a Grails app `PhantomJsImageCapture`
+### Setup Grails app `PhantomJsImageCapture`
+
+1. `git clone git@git1.affinnova.com:msingh/PhantomJsImageCapture.git`.
+2. Goto root directory `cd PhantomJsImageCapture`.
+3. `grails run-app`.
