@@ -8,7 +8,6 @@ function getImage(){
     var jsonData = {
         webPageUrl : webPageUrl
     };
-
     $.ajax({
         url : baseUrl,
         type : "POST",
