@@ -5,12 +5,16 @@
 function getImage(){
     var baseUrl = "http://localhost:8080/PhantomJsImageCapture/webpage";
     var webPageUrl = $("#webPageUrlId").val();
-    var data = {};
-    data["webPageUrl"] = webPageUrl;
+    var jsonData = {
+        webPageUrl : webPageUrl
+    };
+
     $.ajax({
         url : baseUrl,
         type : "POST",
-        data : '{"webPageUrl" : "' + webPageUrl + '"}',
+        dataType : "json",
+        contentType : "application/json",
+        data : JSON.stringify(jsonData),
         success : function (result) {
             $("#imageDivId").attr("src",result.data);
         },
