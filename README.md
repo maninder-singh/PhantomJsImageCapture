@@ -22,8 +22,6 @@ curl --header "Content-type: application/json" --request POST --data '{"webPageU
 
 Note : 
 {web-page-url} : url of webpage
-
-image is saved on following location : PhantomJsImageCapture/target/work/resources/image_capture/images/
 ```
 
 ### Play with it
