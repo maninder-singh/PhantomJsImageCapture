@@ -16,7 +16,7 @@ sudo apt-get install phantomjs
 
 ### Endpoint's available
 
-1. Save the webpage on server and send the datauri of webpage
+Save the webpage on server and send the datauri of webpage
 ```
 curl --header "Content-type: application/json" --request POST --data '{"webPageUrl":"{web-page-url}"}' -v http://localhost:8080/PhantomJsImageCapture/webpage
 
