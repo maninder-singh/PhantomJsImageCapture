@@ -25,3 +25,7 @@ Note :
 
 image is saved on following location : PhantomJsImageCapture/target/work/resources/image_capture/images/
 ```
+
+### Play with it
+
+browse this url `http://localhost:8080/PhantomJsImageCapture/index.html`
